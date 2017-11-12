@@ -1,0 +1,17 @@
+service: default
+runtime: go
+api_version: go1.8
+
+default_expiration: "1d"
+
+
+handlers:
+- url: /.*
+  script: _go_app
+
+env_variables:
+  SLACK_TOKEN: 'your_slack_token'
+  HOT_TREND_CHANNEL: 'your_hot_trends_channel'
+  STORIES_CHANNEL: 'your_stories_channel'
+
+

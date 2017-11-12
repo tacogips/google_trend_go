@@ -1,0 +1,10 @@
+build:
+  steps:
+    - setup-go-workspace
+
+    # Gets the dependencies
+    - script:
+        name: go get
+        code: |
+          go get -u github.com/golang/dep/...
+          dep ensure

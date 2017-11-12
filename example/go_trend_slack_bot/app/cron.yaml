@@ -1,0 +1,9 @@
+cron:
+  - description: fetch google hot trends and push it to slack
+    url: /job/hot_trends
+    schedule: every 1 hours
+
+  - description: fetch google stories and push it to slack
+    url: /job/stories
+    schedule: every 1 hours
+
