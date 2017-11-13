@@ -8,6 +8,7 @@ default_expiration: "1d"
 handlers:
 - url: /.*
   script: _go_app
+  login: admin
 
 env_variables:
   SLACK_TOKEN: 'your_slack_token'
