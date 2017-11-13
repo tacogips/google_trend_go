@@ -4,7 +4,7 @@
 
 `go get -u github.com/tacogips/google_trend_go/example/go_trend_slack_bot`
 
-this example work on google app engine with go1.8.
+this example work on google app engine standard on go1.8.
 
 [check google app engine tutorial](https://cloud.google.com/appengine/docs/standard/go/runtime)
 
